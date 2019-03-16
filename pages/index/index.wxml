@@ -1,0 +1,10 @@
+<view style='{{display_}}'>
+  <progress percent="{{percent_}}" show-info />
+</view>
+<button class='select_video' bindtap='upload_image_'>选择图片</button>
+<image src='{{imgSrc}}'></image>
+<button class='select_video' bindtap='upload_video_'>选择视频</button>
+<video src='{{videoSrc}}'></video>
+
+<!-- 参考文件地址（万分感谢）：
+https://blog.csdn.net/dashenbuguohe/article/details/83716182 -->
